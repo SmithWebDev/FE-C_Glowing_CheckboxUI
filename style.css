@@ -20,6 +20,8 @@ ul {
       ul li label input[type="checkbox"] {
         position: absolute;
         opacity: 0; }
+        ul li label input[type="checkbox"]:checked ~ .icon {
+          color: red; }
       ul li label .icon {
         width: 60px;
         height: 60px;
